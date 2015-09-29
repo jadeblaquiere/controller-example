@@ -60,5 +60,4 @@ class LockController(object):
 		
 
 if __name__ == '__main__':  # pragma: no cover
-	my_app = LockController()
-	my_app.view.present(hide_title_bar=True)
+	LockController().view.present(hide_title_bar=True)

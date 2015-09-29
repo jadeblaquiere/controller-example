@@ -8,5 +8,4 @@ class SettingsController(object):
 		self.scroll = self.view['settings_scrollview']
 
 if __name__ == '__main__':  # pragma: no cover
-	my_app = SettingsController()
-	my_app.view.present(hide_title_bar=True)
+	SettingsController().view.present(hide_title_bar=True)
